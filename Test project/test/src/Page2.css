@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(159, 159, 216);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Register_box{
+   background-color: rgb(159, 159, 216);
+   height: 100vh;
+   padding: 10px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+}
+.Register_box_right{
+    width: 80%;
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+}
+.Register_box_left{
+    width: 20%;
+    
+   
+}
+
+.Register_box_left li{
+   font-size: large;
+   color: white;
+   border-bottom: 1px solid grey;
+   list-style-type: none;
+}
+.Register_box_right button{
+  background-color: orange;
+  color: white;
+  font-size: medium;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.Register_box_right button:hover{
+    background-color: rgb(212, 170, 91);
+}
+.Register_box_right input{
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Register_box_right_button{
+   
+  text-align: right;
+}
